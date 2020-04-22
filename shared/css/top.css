@@ -53,9 +53,7 @@ body { box-sizing: border-box; }
 
 .l-main .wrap-hone .lst-home .item-home .txt-content { margin-top: 50px; font-size: 18px; color: #919191; line-height: 1.6; }
 
-.l-main .wrap-about-me { min-height: 754px; padding-top: 80px; padding-bottom: 80px; background-image: url("/img/img_about_me.jpg"); background-repeat: no-repeat; background-position: top left; background-color: #f2f2f1; background-size: cover initial; }
-
-.l-main .wrap-about-me .wrap-content { padding-left: 420px; }
+.l-main .wrap-about-me { min-height: 754px; padding-top: 80px; padding-bottom: 80px; background-image: url("/img/img_about_me.jpg"); background-repeat: no-repeat; background-position: top left; background-color: #f2f2f1; padding-left: 720px; }
 
 .l-main .wrap-about-me .wrap-content .txt-title { font-weight: bold; font-size: 30px; color: #566366; }
 
