@@ -7,7 +7,12 @@ body { box-sizing: border-box; }
 
 @media all and (min-width: 768px) { .l-inner { min-width: 1200px; width: 1200px; margin: 0 auto; } }
 
-.l-inner-full { margin-right: calc(50% - 50vw); margin-left: calc(50% - 50vw); padding-right: calc(50vw - 50%); padding-left: calc(50vw - 50%); max-width: auto; max-width: initial; }
+@media all and (min-width: 768px) and (max-width: 1199px) { .l-inner-full { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+  .l-full { margin-left: 0; margin-right: 0; } }
+
+@media all and (min-width: 1200px) { html, body { overflow-x: hidden; }
+  .l-full { margin-right: calc(50% - 50vw); margin-left: calc(50% - 50vw); max-width: auto; max-width: initial; }
+  .l-inner-full { margin-right: calc(50% - 50vw); margin-left: calc(50% - 50vw); padding-right: calc(50vw - 50%); padding-left: calc(50vw - 50%); max-width: auto; max-width: initial; } }
 
 .sp-view { display: block; }
 
@@ -110,3 +115,5 @@ body { box-sizing: border-box; }
 .l-main .wrap-my-skill .wrap-content .block-detail .skill-level .lst-skill .item-skill .skill-bar .skill-exp.cover50 { width: 280px; }
 
 .l-main .wrap-my-skill .wrap-content .block-detail .skill-level .lst-skill .item-skill + li { margin-top: 30px; }
+
+.l-main .wrap-resum { height: 425px; background-color: #f2f2f1; }
