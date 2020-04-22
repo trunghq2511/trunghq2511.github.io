@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+/* sass */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap&subset=japanese");
+body, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, table, caption, th, td, form, fieldset, input, textarea, select, pre, address, blockquote, embed, object, dfn, article, aside, canvas, figure, figcaption, footer, header, nav, section, main, audio, video { margin: 0px; padding: 0px; }
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; }
+
+address, dfn { display: inline; font-style: normal; }
+
+canvas { width: 0; height: 0; }
+
+iframe { width: 100%; margin: 0; padding: 0; border: none; }
+
+html { overflow-y: scroll; font-size: 62.5%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+html * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -webkit-overflow-scrolling: touch; }
+
+* { box-sizing: border-box; }
+
+body { color: #333; font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; background: #fff; font-size: 1.6rem; line-height: 1; }
+
+em { font-style: normal; font-weight: bold; }
+
+strong { font-style: normal; font-weight: bold; }
+
+ul, ol { list-style: none; }
+
+table { border-collapse: separate; border-spacing: 0; empty-cells: show; }
+
+caption, th { text-align: left; }
+
+img { border: 0; vertical-align: middle; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+
+a { cursor: pointer; }
+
+form { font-weight: normal; }
+
+input, button, textarea, select { font-size: 1.6rem; line-height: inherit; -webkit-appearance: none; -moz-appearance: none; appearance: none; margin: 0; padding: 0; background: transparent; border: none; border-radius: 0; text-transform: none; font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+
+select::-ms-expand { display: none; }
+
+.txt { line-height: 1.8; }
+
+.img-wrap { font-size: 0; line-height: 0; }
